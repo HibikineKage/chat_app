@@ -1266,9 +1266,9 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
-bson@~1.0.4:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/bson/-/bson-1.0.5.tgz#34563b73ff1fde9387c1b9fb5afd845ecc4ba623"
+bson@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.1.tgz#4330f5e99104c4e751e7351859e2d408279f2f13"
 
 buffer-xor@^1.0.3:
   version "1.0.3"
@@ -4267,18 +4267,13 @@ mixin-deep@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
-mongodb-core@3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.0.4.tgz#a3fdf466e697a2f1df87e458e5e2df1c26cc654b"
+mongodb@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.3.0.tgz#3ec6fa6260405b16fe76cc37b5d09684d13d8c11"
   dependencies:
-    bson "~1.0.4"
+    bson "^1.1.1"
     require_optional "^1.0.1"
-
-mongodb@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.0.4.tgz#ee0c0f7bc565edc5f40ee2d23170e522a8ad2286"
-  dependencies:
-    mongodb-core "3.0.4"
+    safe-buffer "^5.1.2"
 
 morgan@^1.9.0:
   version "1.9.0"
@@ -5471,9 +5466,13 @@ rxjs@^5.4.2, rxjs@^5.5.2:
   dependencies:
     symbol-observable "1.0.1"
 
-safe-buffer@5.1.1, safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
+
+safe-buffer@^5.0.1, safe-buffer@^5.1.0, safe-buffer@^5.1.1, safe-buffer@^5.1.2:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
 
 safe-regex@^1.1.0:
   version "1.1.0"
